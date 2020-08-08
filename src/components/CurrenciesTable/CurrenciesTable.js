@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import ItemCurrency from '../ItemCurrency/ItemCurrency';
 import './CurrenciesTable.scss';
 
-const URL = 'http://api.nbp.pl/api/exchangerates/tables/A/';
+const URL = 'https://api.nbp.pl/api/exchangerates/tables/A/';
 
 const CurrenciesTable = () => {
   const [apiData, setData] = useState([]);

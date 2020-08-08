@@ -15,7 +15,7 @@ class SingleCurrencyTable extends React.Component{
         
     };
     componentDidMount() {
-        fetch(`http://api.nbp.pl/api/exchangerates/rates/A/${this.props.match.params.id}/last/30/`)
+        fetch(`https://api.nbp.pl/api/exchangerates/rates/A/${this.props.match.params.id}/last/30/`)
         .then(response => response.json())
         .then(data => {
             console.log(data)
