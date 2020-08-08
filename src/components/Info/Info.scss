@@ -1,0 +1,27 @@
+.info-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Playfair Display SC', serif;
+    margin-top: 50px;
+
+    @media(max-width: 768px) {
+        width: 97%;
+    }
+
+    h2,
+    p {
+        text-align: center;
+    }
+
+    p {
+        font-size: 19px;
+        line-height: 15px;
+        color: #333;
+
+        span {
+            font-weight: 600;
+            color: #377460;
+            font-size: 22px;
+        }
+    }
+}

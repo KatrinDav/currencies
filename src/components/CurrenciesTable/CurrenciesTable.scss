@@ -1,0 +1,26 @@
+.wrapper {
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+    @media(max-width: 1185px) {
+        width: 80%;
+    }
+
+    @media(max-width: 768px) {
+        width: 85%;
+    }
+}
+
+.wrapper a {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    cursor: pointer;
+}

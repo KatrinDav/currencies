@@ -1,0 +1,62 @@
+.date-wrapper {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    @media(max-width: 768px) {
+        width: 85%;
+    }
+
+    .date-item {
+        width: 100px;
+        height: 80px;
+        margin: 10px;
+        padding: 7px;
+        position: relative;
+
+        .item-wrapper {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            background-color: #629786;
+            box-shadow: 0 10px 30px -10px hsla(0, 0%, 0%, 0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            animation: intro .4s linear both;
+
+            .mid {
+                width: 100%;
+                height: 50%;
+                margin-top: 25px;
+                font-size: 27px;
+            }
+
+            .effect {
+                width: 100%;
+                height: 50%;
+                font-size: 13px;
+            }
+
+            @keyframes intro {
+                0% {
+                    top: 20%;
+                    opacity: 0;
+                }
+
+                100% {
+                    top: 0%;
+                    opacity: 1;
+                }
+            }
+
+        }
+    }
+}
