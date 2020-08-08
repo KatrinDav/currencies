@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="app">
        
-         <Router>
+         <Router basename={process.env.PUBLIC_URL}>
          <Route render={({location}) => (
           <TransitionGroup>
              <CSSTransition key={location.key} timeout={550} classNames="fade">
