@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import {withRouter} from 'react-router-dom';
 import Info from '../Info/Info';
 import Button from '../Button/Button';
-import Table30 from './Table30/Table30';
+
+const Table30 = React.lazy(() => import ('./Table30/Table30'));
+
 
 class SingleCurrencyTable extends React.Component{
     state = {
@@ -58,7 +60,9 @@ class SingleCurrencyTable extends React.Component{
                     maxValue={maxValue}
                     minValue={minValue}/>
                 <Button handleVisibility={this.handleVisibility} isVisible={isVisible}/>
-                <Table30 isVisible={isVisible} dataReverse={dataReverse}/> 
+                 <Suspense fallback="pobieram...">
+                    <Table30 isVisible={isVisible} dataReverse={dataReverse}/> 
+                </Suspense>
             </>
         )
     }
