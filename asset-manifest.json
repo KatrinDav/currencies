@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/currencies/static/css/main.b9f5b20e.chunk.css",
-    "main.js": "/currencies/static/js/main.f03cfa00.chunk.js",
-    "main.js.map": "/currencies/static/js/main.f03cfa00.chunk.js.map",
-    "runtime-main.js": "/currencies/static/js/runtime-main.4bdcf93d.js",
-    "runtime-main.js.map": "/currencies/static/js/runtime-main.4bdcf93d.js.map",
-    "static/js/2.074f81e0.chunk.js": "/currencies/static/js/2.074f81e0.chunk.js",
-    "static/js/2.074f81e0.chunk.js.map": "/currencies/static/js/2.074f81e0.chunk.js.map",
-    "static/css/3.c4106980.chunk.css": "/currencies/static/css/3.c4106980.chunk.css",
-    "static/js/3.6d348e43.chunk.js": "/currencies/static/js/3.6d348e43.chunk.js",
-    "static/js/3.6d348e43.chunk.js.map": "/currencies/static/js/3.6d348e43.chunk.js.map",
+    "main.css": "/currencies/static/css/main.67551127.chunk.css",
+    "main.js": "/currencies/static/js/main.e810e227.chunk.js",
+    "main.js.map": "/currencies/static/js/main.e810e227.chunk.js.map",
+    "runtime-main.js": "/currencies/static/js/runtime-main.f0cd548b.js",
+    "runtime-main.js.map": "/currencies/static/js/runtime-main.f0cd548b.js.map",
+    "static/js/2.a341c444.chunk.js": "/currencies/static/js/2.a341c444.chunk.js",
+    "static/js/2.a341c444.chunk.js.map": "/currencies/static/js/2.a341c444.chunk.js.map",
+    "static/css/3.cfe80a30.chunk.css": "/currencies/static/css/3.cfe80a30.chunk.css",
+    "static/js/3.3286dcc4.chunk.js": "/currencies/static/js/3.3286dcc4.chunk.js",
+    "static/js/3.3286dcc4.chunk.js.map": "/currencies/static/js/3.3286dcc4.chunk.js.map",
     "index.html": "/currencies/index.html",
-    "precache-manifest.f5f5c45874b2dc8213e65cb14a2e5bb8.js": "/currencies/precache-manifest.f5f5c45874b2dc8213e65cb14a2e5bb8.js",
+    "precache-manifest.c68136adcafa1368a3e01653c1a1cd16.js": "/currencies/precache-manifest.c68136adcafa1368a3e01653c1a1cd16.js",
     "service-worker.js": "/currencies/service-worker.js",
-    "static/css/3.c4106980.chunk.css.map": "/currencies/static/css/3.c4106980.chunk.css.map",
-    "static/css/main.b9f5b20e.chunk.css.map": "/currencies/static/css/main.b9f5b20e.chunk.css.map",
-    "static/js/2.074f81e0.chunk.js.LICENSE.txt": "/currencies/static/js/2.074f81e0.chunk.js.LICENSE.txt"
+    "static/css/3.cfe80a30.chunk.css.map": "/currencies/static/css/3.cfe80a30.chunk.css.map",
+    "static/css/main.67551127.chunk.css.map": "/currencies/static/css/main.67551127.chunk.css.map",
+    "static/js/2.a341c444.chunk.js.LICENSE.txt": "/currencies/static/js/2.a341c444.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4bdcf93d.js",
-    "static/js/2.074f81e0.chunk.js",
-    "static/css/main.b9f5b20e.chunk.css",
-    "static/js/main.f03cfa00.chunk.js"
+    "static/js/runtime-main.f0cd548b.js",
+    "static/js/2.a341c444.chunk.js",
+    "static/css/main.67551127.chunk.css",
+    "static/js/main.e810e227.chunk.js"
   ]
 }
