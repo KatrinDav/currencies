@@ -3,8 +3,6 @@ import axios from 'axios';
 import { Link } from 'react-router-dom';
 import ItemCurrency from '../ItemCurrency/ItemCurrency';
 import './CurrenciesTable.scss';
-import { animateItem } from '../../utils';
-
 
 
 const URL = 'https://api.nbp.pl/api/exchangerates/tables/A/';
@@ -19,11 +17,7 @@ const CurrenciesTable = () => {
     };
     fetchData();
 
-    if (apiData && apiData !== []) {
-      animateItem()
-    }
-
-  }, [apiData])
+  }, [])
 
 
 

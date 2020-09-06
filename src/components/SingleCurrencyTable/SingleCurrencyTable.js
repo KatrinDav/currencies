@@ -2,7 +2,7 @@ import React, { Suspense } from 'react';
 import { withRouter } from 'react-router-dom';
 import Info from '../Info/Info';
 import Button from '../Button/Button';
-import { animateItem } from '../../utils';
+
 
 const Table30 = React.lazy(() => import('./Table30/Table30'));
 
@@ -27,12 +27,6 @@ class SingleCurrencyTable extends React.Component {
 
                 })
             })
-    }
-
-    componentDidUpdate() {
-        if (this.state.data && this.state.data !== []) {
-            animateItem()
-        }
     }
 
     fnMax = (data) => {
